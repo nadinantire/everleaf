@@ -24,10 +24,12 @@ module Everleaftasks
                        controller_specs: false,
                        request_specs: false
       g.fixture_replacement :factory_bot, dir: "spec/factories"
+      
     end
-    
+    # config.i18n.default_locale = :ja
+  config.time_zone = 'Japan'
     
   end
-  config.i18n.default_locale = :ja
+  
 end
 
