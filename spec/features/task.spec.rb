@@ -25,4 +25,7 @@ RSpec.feature "Task management function", type: :feature do
   scenario "Test task details" do
 
   end
+  scenario "Test whether tasks are arranged in descending order of creation date" do
+    # Write test content here
+  end
 end
