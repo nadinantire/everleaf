@@ -15,7 +15,7 @@ id                | integer
 name              | string
 content           | string
 stutus            | string
-user_id           | integer
+user_id(FK)       | references
 priority          | priority
 stated_date       | date
 end_date          | date
